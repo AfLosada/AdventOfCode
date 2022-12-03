@@ -1,5 +1,7 @@
-import Days.day2
+import days.Day1
+import days.Day2
 
 fun main(args: Array<String>) {
-    day2()
+    Day1().day1()
+    //Day2().day2()
 }
