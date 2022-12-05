@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01641dbb-f93d-4032-b9e0-324b68be48eb" name="Changes" comment="Finishing Day1, organizing project.">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/days/Day3.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Day3/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/days/Day4.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Day4/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
@@ -55,8 +55,8 @@
       <recent name="C:\Users\nedro\IdeaProjects\AdventOfCode\src\main\kotlin\days" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\nedro\IdeaProjects\AdventOfCode\src\main\resources\Day2" />
       <recent name="C:\Users\nedro\IdeaProjects\AdventOfCode\src\main\resources" />
+      <recent name="C:\Users\nedro\IdeaProjects\AdventOfCode\src\main\resources\Day2" />
     </key>
   </component>
   <component name="RunManager">
@@ -151,6 +151,11 @@
           <url>file://$PROJECT_DIR$/src/main/kotlin/days/Day3.kt</url>
           <line>20</line>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/days/Day4.kt</url>
+          <line>12</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
