@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01641dbb-f93d-4032-b9e0-324b68be48eb" name="Changes" comment="Finishing Day4.">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/days/Day5.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/days/Day6.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Day5/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Day6/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/days/Day7.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/days/Day8.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Day7/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Day8/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
@@ -167,13 +167,38 @@
           <line>12</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/days/Day7.kt</url>
+          <line>36</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <condition expression="changeFolderArgument == &quot;e&quot;" language="kotlin" />
+          <url>file://$PROJECT_DIR$/src/main/kotlin/days/Day7.kt</url>
+          <line>69</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <condition expression="height == 5" language="kotlin" />
+          <url>file://$PROJECT_DIR$/src/main/kotlin/days/Day8.kt</url>
+          <line>89</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="days.Day7" memberName="setOfDirectories" />
+      </pinned-members>
+    </pin-to-top-manager>
     <watches-manager>
       <configuration name="JetRunConfigurationType">
-        <watch expression="&quot;${parsedMoves[0]}&quot;.toInt()" language="kotlin" />
-        <watch expression="&quot;${parsedMoves[1]}&quot;.toInt() - 1" language="kotlin" />
-        <watch expression="&quot;${parsedMoves[2]}&quot;.toInt() - 1" language="kotlin" />
+        <watch expression="x" language="kotlin" custom="import days.Day8.Companion.Tree" />
+        <watch expression="y" language="kotlin" custom="import days.Day8.Companion.Tree" />
+        <watch expression="height" language="kotlin" custom="import days.Day8.Companion.Tree" />
       </configuration>
     </watches-manager>
   </component>
