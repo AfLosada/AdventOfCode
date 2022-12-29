@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01641dbb-f93d-4032-b9e0-324b68be48eb" name="Changes" comment="Finishing Day4.">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/days/Day7.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/days/Day8.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Day7/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Day8/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/days/Day10.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/days/Day9.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Day10/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Day9/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
@@ -187,6 +187,32 @@
           <line>89</line>
           <option name="timeStamp" value="51" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/days/Day9.kt</url>
+          <line>93</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <condition expression="CurrentHeadPosition == Point(-11,15)" language="kotlin" />
+          <url>file://$PROJECT_DIR$/src/main/kotlin/days/Day9.kt</url>
+          <line>34</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/days/Day9.kt</url>
+          <line>41</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/days/Day9.kt</url>
+          <line>35</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/days/Day10.kt</url>
+          <line>47</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>
@@ -196,9 +222,8 @@
     </pin-to-top-manager>
     <watches-manager>
       <configuration name="JetRunConfigurationType">
-        <watch expression="x" language="kotlin" custom="import days.Day8.Companion.Tree" />
-        <watch expression="y" language="kotlin" custom="import days.Day8.Companion.Tree" />
-        <watch expression="height" language="kotlin" custom="import days.Day8.Companion.Tree" />
+        <watch expression="knot.distanceTo(lastUpdatedPosition)" language="kotlin" />
+        <watch expression="(lastPosition - body[index]).normalize()" language="kotlin" />
       </configuration>
     </watches-manager>
   </component>
